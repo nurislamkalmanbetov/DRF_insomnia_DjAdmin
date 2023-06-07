@@ -1,0 +1,11 @@
+Serializert Relationships (Using Nested Serializers)
+
+1) posts/models 
+2) accounts/serializers
+3) posts/views -> url -> insomnia 
+
+# это показывает отношения между сериализаторами - и на выходе будет давать созданные
+посты юзером
+
+4) accounts/serializer 
+5) posts/urls - copy name posts - views

@@ -8,7 +8,7 @@ Django DRF проект с использованием Insomnia
 - DestroyModelMixin (удаление записи)
 - ListModelMixin (получение списка записей)
 - CreateModelMixin (создание новой записи)
-
+__________________________________________________________________________
 Так же использованы Viewset's
 
 -Accounts:
@@ -27,3 +27,6 @@ class YourModelViewSet(RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin,
     serializer_class = YourModelSerializer
 
     # Дополнительные методы и настройки
+
+
+
